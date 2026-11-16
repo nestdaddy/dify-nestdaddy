@@ -1,0 +1,34 @@
+identity:
+  name: nestdaddy_web_search
+  author: nestdaddy
+  label:
+    en_US: NestDaddy Web Search
+description:
+  human:
+    en_US: Search the web with NestDaddy's own index. Returns the title, URL, snippet and domain of each page.
+  llm: Search the web with NestDaddy's own index. Returns the title, url, snippet and domain of each page. For time-sensitive questions fresh news articles are mixed in. Use short key words, not a whole sentence.
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query
+    human_description:
+      en_US: Key words to search for.
+    llm_description: Short key words to search the web for, not a whole sentence.
+    form: llm
+  - name: max_results
+    type: number
+    required: false
+    default: 10
+    min: 1
+    max: 50
+    label:
+      en_US: Max results
+    human_description:
+      en_US: How many results to return (1-50). Each search costs 1 credit.
+    llm_description: How many results to return (1-50).
+    form: form
+extra:
+  python:
+    source: tools/web_search.py

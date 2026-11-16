@@ -1,0 +1,28 @@
+identity:
+  author: nestdaddy
+  name: nestdaddy
+  label:
+    en_US: NestDaddy
+  description:
+    en_US: Live web search and real-time news from NestDaddy's own search index.
+  icon: icon.png
+  tags:
+    - search
+    - news
+credentials_for_provider:
+  nestdaddy_api_key:
+    type: secret-input
+    required: true
+    label:
+      en_US: NestDaddy API Key
+    placeholder:
+      en_US: Paste your NestDaddy API key
+    help:
+      en_US: Get a free key (1,000 credits a month, no card) at https://nestdaddy.com/dashboard
+    url: https://nestdaddy.com/dashboard
+tools:
+  - tools/web_search.yaml
+  - tools/news_search.yaml
+extra:
+  python:
+    source: provider/nestdaddy.py

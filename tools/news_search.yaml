@@ -1,0 +1,55 @@
+identity:
+  name: nestdaddy_news_search
+  author: nestdaddy
+  label:
+    en_US: NestDaddy News Search
+description:
+  human:
+    en_US: Search real-time news from around the world by key words, newest and best match first.
+  llm: Search real-time breaking news from around the world by key words. Returns the title, url, source, publish time and summary of each article, newest and best match first. The best tool for questions about recent events, people, companies and places.
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query
+    human_description:
+      en_US: Key words a headline would use.
+    llm_description: Key words a headline would use, in the local language for local news.
+    form: llm
+  - name: country
+    type: string
+    required: false
+    label:
+      en_US: Country
+    human_description:
+      en_US: Optional two-letter country code, for example US, GB, IN, SG or ID.
+    llm_description: Optional two-letter country code, e.g. US, GB, IN, SG, ID. Leave empty for news from everywhere.
+    form: llm
+  - name: days
+    type: number
+    required: false
+    default: 30
+    min: 1
+    max: 120
+    label:
+      en_US: Days
+    human_description:
+      en_US: Only news from the last N days (1-120).
+    llm_description: Only news from the last N days (1-120).
+    form: llm
+  - name: max_results
+    type: number
+    required: false
+    default: 10
+    min: 1
+    max: 50
+    label:
+      en_US: Max results
+    human_description:
+      en_US: How many articles to return (1-50). Each search costs 1 credit.
+    llm_description: How many articles to return (1-50).
+    form: form
+extra:
+  python:
+    source: tools/news_search.py

@@ -1,0 +1,35 @@
+version: 0.0.1
+type: plugin
+author: nestdaddy
+name: nestdaddy
+label:
+  en_US: NestDaddy
+description:
+  en_US: Live web search and real-time news for your Dify apps and agents, from NestDaddy's own search index.
+icon: icon.png
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/nestdaddy.yaml
+tags:
+  - search
+  - news
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.0.0
+created_at: 2026-11-16T00:00:00Z
+privacy: PRIVACY.md
+repo: https://github.com/nestdaddy/dify-nestdaddy
+contact: support@nestdaddy.com
+network:
+  domains:
+    - nestdaddy.com
