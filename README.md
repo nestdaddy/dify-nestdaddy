@@ -1,5 +1,7 @@
 # NestDaddy for Dify
 
+> NestDaddy launched on Product Hunt on 17 Nov 2026. Feedback and reviews welcome: [producthunt.com/products/nestdaddy](https://www.producthunt.com/products/nestdaddy)
+
 Give your Dify apps and agents today's internet: live web search and real-time news from NestDaddy's own search index.
 
 **Source code:** https://github.com/nestdaddy/dify-nestdaddy
