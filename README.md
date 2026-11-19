@@ -32,7 +32,6 @@ Give your Dify apps and agents today's internet: live web search and real-time n
 ## Support
 
 - Questions or problems: open an issue at https://github.com/nestdaddy/dify-nestdaddy/issues or email support@nestdaddy.com
-- Community: https://discord.gg/CXStfSFC3v
 - API docs: https://nestdaddy.com/apis
 
 ## Privacy
