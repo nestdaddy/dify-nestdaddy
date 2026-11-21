@@ -15,7 +15,7 @@ Give your Dify apps and agents today's internet: live web search and real-time n
 
 ## Setup
 
-1. Get a free API key at [nestdaddy.com](https://nestdaddy.com/dashboard). The Free plan includes 1,000 credits a month and needs no card. One search costs 1 credit.
+1. Get a free API key at [nestdaddy.com](https://nestdaddy.com/dashboard). You start with 1,000 free credits and need no card. One search costs 1 credit.
 2. In Dify, install the **NestDaddy** plugin from the Marketplace.
 3. Open **Tools > NestDaddy > Authorize** and paste your API key.
 
