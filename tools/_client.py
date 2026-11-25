@@ -14,7 +14,7 @@ class NestDaddyError(Exception):
 
 def call(api_key: str, path: str, params: dict[str, Any]) -> dict[str, Any]:
     if not api_key:
-        raise NestDaddyError("NestDaddy API key is missing. Get a free key at https://nestdaddy.com/dashboard")
+        raise NestDaddyError("NestDaddy API key is missing. Get a key at https://nestdaddy.com/pricing (7 days free)")
     clean = {k: v for k, v in params.items() if v not in (None, "")}
     try:
         r = requests.get(BASE_URL + path, params=clean, timeout=TIMEOUT,
