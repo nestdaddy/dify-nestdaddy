@@ -15,7 +15,7 @@ Give your Dify apps and agents today's internet: live web search and real-time n
 
 ## Setup
 
-1. Get an API key at [nestdaddy.com](https://nestdaddy.com/pricing). Every plan starts with 7 days free. One search costs 1 credit.
+1. Get an API key at [nestdaddy.com](https://nestdaddy.com/pricing). There is a 7-day free trial. One search costs 1 credit.
 2. In Dify, install the **NestDaddy** plugin from the Marketplace.
 3. Open **Tools > NestDaddy > Authorize** and paste your API key.
 
@@ -26,7 +26,7 @@ Give your Dify apps and agents today's internet: live web search and real-time n
 
 ## Requirements
 
-- A NestDaddy API key (every plan starts with 7 days free).
+- A NestDaddy API key (7-day free trial).
 - Outbound HTTPS access from your Dify instance to `https://nestdaddy.com`. The plugin calls only the fixed endpoints `/api/v1/search` and `/api/v1/news/search`.
 
 ## Support

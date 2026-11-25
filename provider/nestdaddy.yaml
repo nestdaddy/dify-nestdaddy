@@ -18,7 +18,7 @@ credentials_for_provider:
     placeholder:
       en_US: Paste your NestDaddy API key
     help:
-      en_US: Get a key at https://nestdaddy.com/pricing (every plan starts with 7 days free)
+      en_US: Get a key at https://nestdaddy.com/pricing (7-day free trial)
     url: https://nestdaddy.com/dashboard
 tools:
   - tools/web_search.yaml
