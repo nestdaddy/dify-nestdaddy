@@ -4,7 +4,7 @@
 
 Give your Dify apps and agents today's internet: live web search and real-time news from NestDaddy's own search index.
 
-**Source code:** https://github.com/nestdaddy/dify-nestdaddy
+**Source code:** https://github.com/nestdaddy-ai/dify-nestdaddy
 
 ## Tools
 
@@ -31,7 +31,7 @@ Give your Dify apps and agents today's internet: live web search and real-time n
 
 ## Support
 
-- Questions or problems: open an issue at https://github.com/nestdaddy/dify-nestdaddy/issues or email support@nestdaddy.com
+- Questions or problems: open an issue at https://github.com/nestdaddy-ai/dify-nestdaddy/issues or email support@nestdaddy.com
 - API docs: https://nestdaddy.com/apis
 
 ## Privacy
